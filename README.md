@@ -34,7 +34,7 @@ See [Branch Naming Convention](#branch-naming-convention) for guidelines on nami
 |:-------------|:-------------------------------------------------------------|
 | `docs/`      | API Reference documentation                                  |
 | `notebooks/` | Python notebooks                                             |
-| `output/`    | Software output code & tests                                 |
+| `output/`    | Software code tests & output                                 |
 | `src/`       | Software source code                                         |
 | `tests/`     | Unit tests for each function or method within AI pkg modules |
 | `.gitignore` | List of files or dirs to exclude in the repository           |
