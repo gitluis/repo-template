@@ -1,16 +1,13 @@
-# AI Toolbox
+# Repository Name
 
-A data science toolbox package containing machine learning related techniques and software tools.
+Repository description.
 
 * [Repository](#repository)
    * [Branches](#branches)
    * [File Structure](#file-structure)
-   * [AI Package](#ai-package)
-   * [Module Example](#module-example)
 * [Software Best Practices](#software-best-practices)
    * [Development](#development)
    * [Documentation](#documentation)
-* [Software Unit Testing](#software-unit-testing)
 * [Contribution](#contribution)
     * [Branch Naming Convention](#branch-naming-convention)
     * [How-to Contribute](#how-to-contribute)
@@ -24,7 +21,7 @@ A data science toolbox package containing machine learning related techniques an
 
 | Branch   | Description                        | Reviews Required | Comments                                |
 |:---------|:-----------------------------------|:----------------:|:----------------------------------------|
-| `master` | Toolbox official software release  | 1                |                                         |
+| `master` | Official software release          | 1                |                                         |
 | `qa`     | Quality assurance software release | 2                | Software reviews, team discussion, etc. |
 | `dev-*`  | All software development branches  | 0                | `*` represents the branch name          |
 
@@ -35,53 +32,13 @@ See [Branch Naming Convention](#branch-naming-convention) for guidelines on nami
 
 | Item         | Description                                                  |
 |:-------------|:-------------------------------------------------------------|
-| `ai/`        | AI package                                                   |
-| `data/`      | Datasets                                                     |
 | `docs/`      | API Reference documentation                                  |
-| `notebooks/` | Python notebooks using the `ai` package                      |
+| `notebooks/` | Python notebooks                                             |
+| `output/`    | Software output code & tests                                 |
+| `src/`       | Software source code                                         |
 | `tests/`     | Unit tests for each function or method within AI pkg modules |
 | `.gitignore` | List of files or dirs to exclude in the repository           |
 | `README.md`  | This document                                                |
-
-## AI Package
-
-```
-ai/                                 # AI package
-|-- ai/
-|   |-- __init__.py
-|   |-- feature_engineering/        # Feature engineering modules
-|   |-- feature_selection/          # Feature selection modules
-|   |-- models/                     # Machine Learning modules
-|   |-- utils/                      # Utilities modules
-|-- README
-|-- setup.py                        # Package installer
-```
-
-## Module Example
-
-```
-ai/                                 # AI package
-|-- ai/
-|   |-- __init__.py
-|   |-- feature_selection/          # Feature selection modules
-|   |   |-- __init__.py
-|   |   |-- lasso.py                # LASSO module
-|-- README
-|-- setup.py
-
-notebooks/
-|-- feature_selection/
-    |-- lasso.ipynb                 # Python notebook using LASSO module only
-    |-- master.ipynb                # Python notebook using all feature selection modules
-
-tests/
-|-- __init__.py
-|-- feature_selection/
-    |-- __init__.py
-    |-- test_lasso.py               # Unit tests for each function or method within the LASSO module
-```
-
-As seen above, the `lasso.py` module is created along with unit test case(s), python notebook and added to the feature selection master notebook. That way, we ensure that each module is working properly and that the notebooks can be downloaded and used by other team members.
 
 
 # Software Best Practices
@@ -138,11 +95,6 @@ Resources:
 * [Sphinx Getting Started](http://www.sphinx-doc.org/en/stable/usage/quickstart.html)
 * [Sphinx Simple Tutorial](https://brandons-sphinx-tutorial.readthedocs.io/en/latest/)
 * [An idiot’s guide to Python documentation with Sphinx and ReadTheDocs](https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/)
-
-
-# Software Unit Testing
-
-Still under construction!
 
 
 # Contribution
