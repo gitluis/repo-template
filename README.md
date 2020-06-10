@@ -19,11 +19,11 @@ Repository description.
 
 ## Branches
 
-| Branch   | Description                        | Reviews Required | Comments                                |
-|:---------|:-----------------------------------|:----------------:|:----------------------------------------|
-| `master` | Official software release          | 1                |                                         |
-| `qa`     | Quality assurance software release | 2                | Software reviews, team discussion, etc. |
-| `dev-*`  | All software development branches  | 0                | `*` represents the branch name          |
+| Branch        | Description                        | Reviews Required | Comments                                |
+|:--------------|:-----------------------------------|:----------------:|:----------------------------------------|
+| `master`      | Official software release          | 1                |                                         |
+| `software-qa` | Quality assurance software release | 2                | Software reviews, team discussion, etc. |
+| `dev-*`       | All software development branches  | 0                | `*` represents the branch name          |
 
 See [Branch Naming Convention](#branch-naming-convention) for guidelines on naming development branches.
 
