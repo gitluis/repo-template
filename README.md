@@ -20,7 +20,7 @@ Repository description.
 | `software-qa` | Quality assurance software release | 2                | Software reviews, team discussion, etc. |
 | `dev-*`       | All software development branches  | 0                | `*` represents the branch name          |
 
-See [Branch Naming Convention](#branch-naming-convention) for guidelines on naming development branches.
+See [Branch Naming Convention](https://github.com/popular-aiml/ai-repo-template/wiki/Contribution#branch-naming-convention) for guidelines on naming development branches.
 
 
 ## File Structure
