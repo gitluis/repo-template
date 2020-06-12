@@ -25,15 +25,15 @@ See [Branch Naming Convention](#branch-naming-convention) for guidelines on nami
 
 ## File Structure
 
-| Item         | Description                                                  |
-|:-------------|:-------------------------------------------------------------|
-| `docs/`      | API Reference documentation                                  |
-| `notebooks/` | Python notebooks                                             |
-| `output/`    | Software code tests & output                                 |
-| `src/`       | Software source code                                         |
-| `tests/`     | Unit tests for each function or method within AI pkg modules |
-| `.gitignore` | List of files or dirs to exclude in the repository           |
-| `README.md`  | This document                                                |
+| Item         | Description                                                   |
+|:-------------|:--------------------------------------------------------------|
+| `docs/`      | API Reference documentation                                   |
+| `notebooks/` | Python notebooks                                              |
+| `output/`    | Software code tests & output                                  |
+| `src/`       | Software source code                                          |
+| `tests/`     | Unit tests for each function or method within the source code |
+| `.gitignore` | List of files or dirs to exclude in the repository            |
+| `README.md`  | This document                                                 |
 
 
 # Software Best Practices
