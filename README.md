@@ -38,9 +38,9 @@ See [Branch Naming Convention](#branch-naming-convention) for guidelines on nami
 
 # Software Best Practices
 
-//
+See the [best practices](https://github.com/popular-aiml/ai-repo-template/wiki/Software-Best-Practices) wiki for a full guide on our software best practices.
 
 
 # Contribution
 
-//
+See the [contribution](https://github.com/popular-aiml/ai-repo-template/wiki/Contribution) wiki for a full guide on how to contribute as a developer.
