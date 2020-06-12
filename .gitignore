@@ -1,2 +1,8 @@
 # Data
 data/
+
+# PyCharm artifacts
+.idea/
+
+# Visual Studio Code artifacts
+.vscode/
