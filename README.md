@@ -17,11 +17,11 @@ Repository description.
 | Branch        | Description                        | Reviews Required | Comments                                |
 |:--------------|:-----------------------------------|:----------------:|:----------------------------------------|
 | `master`      | Official software release          | 1                |                                         |
-| `software-qa` | Quality assurance software release | 2                | Software reviews, team discussion, etc. |
-| `dev-*`       | All software development branches  | 0                | `*` represents the branch name          |
+| `dev-*`       | All software development branches  | 0                | Software changes, reviews, quality, etc.|
 
 See [Branch Naming Convention](https://github.com/popular-aiml/ai-repo-template/wiki/Contribution#branch-naming-convention) for guidelines on naming development branches.
 
+Note: `*` represents the branch name.
 
 ## File Structure
 
